@@ -1,0 +1,10 @@
+#การรับค่าข้อมูลทางแป้นพิมพ์ด้วย Python
+name = input(' ป้อนชื่อ : ')
+yearBron = input('ป้อนปีเกิด ค.ศ. : ')
+print('-----------------------------------')
+print('-----------------------------------')
+print(f'ยินดีต้อนรับ {name} เกิดปี {yearBron} อายุ {2023 - int(yearBron) }')
+print('ยินดีต้อนรับ' ,name ,'เกิดปี' ,yearBron ,'อายุ' ,2023 - int(yearBron))
+print('ยินดีต้อนรับ '+name+' เกิดปี '+yearBron+' อายุ '+ str (2023-int(yearBron)))
+print('ยินดีต้อนรับ {} เกิดปี {} อายุ {}'.format(name,yearBron,2023 - int(yearBron)))
+print('ยินดีต้อนรับ %s เกิดปี %s อายุ %d' %(name,yearBron,2023 - int(yearBron)))
